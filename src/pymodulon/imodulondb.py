@@ -817,6 +817,7 @@ def imdb_gene_table_df(model, k):
         "cog",
         "operon",
         "regulator",
+        "specific_gos_n"
     ]:
         if c in res.columns:
             columns.append(c)
